@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+header{
+  width:100%;
+}
+
+main{
+  margin-bottom:10px;
+}
+
+section{
+  width: 1020px;
+  margin:0px auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+.left_con{
+  height:507px;
+  
+}
+.cen_con{
+ 
+  width:380px;
+}
+.right_con{
+  
+  width:260px;
+}
+
+

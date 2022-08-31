@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>현대자동차</title>
+  <link href="./m_css/swiper.css" rel="stylesheet" type="text/css">
+  <script src="./script/swiper.js"></script>
+  <style>
+    .swiper{
+      position: relative;
+      width: 352px;
+      height: 233px;
+      overflow: hidden;
+      margin: 0px auto;
+    }
+    
+    
+   
+    
+  </style>
+</head>
+<body>
+<article class="slide">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="#" title="car1"><img src="./images/car1.jpg" alt="car1"></a></div>
+      <div class="swiper-slide"><a href="#" title="car2"><img src="./images/car2.jpg" alt="car2"></a></div>
+      <div class="swiper-slide"><a href="#" title="car3"><img src="./images/car3.jpg" alt="car3"></a></div>
+      <div class="swiper-slide"><a href="#" title="car4"><img src="./images/car4.jpg" alt="car4"></a></div>
+      <div class="swiper-slide"><a href="#" title="car5"><img src="./images/car5.jpg" alt="car5"></a></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</article>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 0,
+    effect: "slide", /*페이드아웃, 페이드인효과 */
+    centeredSlides: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+</body>
+</html>
