@@ -1,0 +1,15 @@
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 0,
+      effect: "fade", /*페이드아웃, 페이드인효과 */
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
